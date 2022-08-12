@@ -1,0 +1,249 @@
+#topbar                 /*id selector use #*/
+{
+    background-color: #050505;
+    height: 10px;
+    width: 100%;
+}
+
+body
+{
+    background-color: white;
+}
+
+#container
+{
+    /* background-color: red; */
+    /* height: 700px; */
+    width: 70%;
+    margin: 0px auto;       /*center alignment*/
+}
+
+#header
+{
+    height: 90px;
+    background-color: #fefefe;
+}
+
+#header img
+{
+    height: 80px;
+}
+
+#header ul
+{
+    float: right;           /*leftside or rightside use float property*/
+    margin-top: 30px;       /*space drop from top*/
+}
+
+#header ul li
+{
+    display: inline;
+    margin-right: 25px;      /*space between list*/
+}
+
+#header ul li a
+{
+    color: grey;
+    text-decoration: none;      /*remove underline*/
+    font-size: 18px;
+}
+
+#banner img
+{
+    height: 477px;
+    width: 100%;
+    padding-bottom: 20px;       /*space between banner img and content,move content bottom*/
+}
+
+#content1 
+{
+    height: 350px;
+    width: 32%;
+    background-color: #e32a00;
+    float: left;
+    margin-right: 2%;                   /*internal space ---> use padding,external space --> use margin*/
+}
+
+#content2
+{
+    height: 350px;
+    width: 32%;
+    background-color: #fe8f01;
+    float: left;
+}
+
+#content3
+{
+    height: 350px;
+    width: 32%;
+    background-color: #4c7600;
+    float: right;
+}
+
+.heading            /*class selector use dot*/
+{
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.para1
+{
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.more
+{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 8px;
+    margin-left: 20px;
+}
+
+.heading1
+{
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.list
+{
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.more1
+{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 8px;
+    margin-left: 20px;
+}
+
+.heading2
+{
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.para3
+{
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.more2
+{
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: white;
+}
+
+#section1
+{
+    width: 60%;
+    /* height: 300px; */
+    float: left;
+    margin-top: 15px;
+    /* background-color: #4c7600; */
+    margin-bottom: 30px;
+}
+
+#section1 h2
+{
+    margin-left: 20px;
+}
+
+#section1 p
+{
+    margin-left: 20px;
+    margin-right: 8px;
+}
+
+#section1 a
+{
+    color: red;
+    margin-left: 20px;
+}
+#section2
+{
+    width: 40%;
+    /* height: 300px; */
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#section2 h2
+{
+    margin-left: 20px;
+}
+
+.link1
+{
+    color: black;
+    margin-left: 20px;
+}
+
+.image
+{
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.link2
+{
+    color: red;
+    margin-left: 20px;
+}
+
+#footer
+{
+    background-color: #050505;
+    height: 60px;
+    width: 100%;
+    clear: both;           /*naraya float property use panathala footer mela pogidum so use clear ppty*/  
+}
+
+#footer ul
+{
+    float: left;
+    margin-top: 30px;
+    margin: 20px auto; 
+}
+
+#footer ul li
+{
+    display: inline;
+    margin-right: 25px;      /*space between list*/
+}
+
+#footer ul li a
+{
+    color: grey;
+    text-decoration: none;      /*remove underline*/
+    font-size: 18px;
+}
+
+#footer p
+{
+    color: white;
+    float: right;
+    margin: 20px 30px; 
+}
